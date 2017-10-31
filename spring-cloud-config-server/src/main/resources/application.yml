@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:\Users\ricardo.j.surribas\Desktop\Micro-Course\git-localconfig-repo    
+server:
+  port: 8888
+  
